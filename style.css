@@ -1,0 +1,129 @@
+/*
+Theme Name: Office Master
+Theme URI: https://wordpress.org
+Author: Mahabub Hossain
+Version: 1.1
+
+
+
+
+
+
+*/
+.navbar-default .navbar-nav > .current_page_item > a, .navbar-default .navbar-nav > .current_page_item > a:hover, .navbar-default .navbar-nav > .current_page_item > a:focus {
+	color: #fff;
+	background-color: #6BAAA8;
+}
+.current_page_item {
+	background: #74B9B9 !important;
+	color: white;
+}
+.services-group{
+	margin-top: 30px;
+}
+.services-row{
+	
+	margin-top: -30px
+
+}
+.label-primary {
+    background-color: #ca428a;
+}
+.label{
+	margin-left: 1px;
+}
+h2, .h2 {
+   
+    display: none;
+}
+.nav-links{
+	border: 1px #ddd solid;
+border-radius:5px ;
+overflow: hidden;
+}
+.nav-links .page-numbers{
+	width: 35px;
+	float: left;
+	display: block;
+	line-height: 35px;
+	border-left: 1px solid #ddd;
+	text-align: center;
+	background:white;
+}
+.nav-links .page-numbers:first-child{
+	border-left: 0;
+}
+.page-numbers.current,.page-numbers:hover{
+	background: #428bca;
+   color: white;
+
+}
+.page-numbers:hover{
+	color: #eee;
+}
+.blog-title a{
+	color: #385A30;
+
+}
+#message.box-height{
+	height: 100px;
+
+}
+.test1{
+	width: 100%;
+	height: 300px;
+	background: red;
+
+}
+.test2{
+	width: 100%;
+	height: 300px;
+	background: green;
+	
+}
+.test3{
+	width: 100%;
+	height: 300px;
+	background: blue;
+	
+}
+img{
+            max-width: 100%;
+            height: auto;
+        }
+        .filter_trigger {
+            list-style: none;
+            padding: 20px 0;
+        }
+        .filter_trigger li{
+            display: inline-block;
+            padding: 5px 20px;
+            background: #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        .filter_trigger li.active{
+            background: #999;
+            color: #fff;
+        }
+        .all_filter_item .mix{
+            display: none;
+        }
+        .single_item{
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .single_item h2{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+#filtering{
+	padding: 150px 0;
+}

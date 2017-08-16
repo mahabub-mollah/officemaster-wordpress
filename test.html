@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mixitup</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="filter_trigger">
+                    <li class="filter" data-filter="all">All</li>
+                    <li class="filter" data-filter=".red">Red</li>
+                    <li class="filter" data-filter=".green">Green</li>
+                    <li class="filter" data-filter=".blue">Blue</li>
+                </ul>
+            </div>
+        </div>
+        <div class="all_filter_item row">
+            <div class="mix single_item col-md-3 red">
+                <img src="red.jpg" alt="">
+                <h2>your red</h2>
+            </div>
+            <div class="mix single_item col-md-3 green">
+                <img src="green.jpg" alt="">
+                <h2>your green</h2>
+            </div>
+            <div class="mix single_item col-md-3 blue">
+                <img src="blue.jpg" alt="">
+                <h2>your blue</h2>
+            </div>
+            <div class="mix single_item col-md-3 red">
+                <img src="red.jpg" alt="">
+                <h2>your red</h2>
+            </div>
+            <div class="mix single_item col-md-3 green">
+                <img src="green.jpg" alt="">
+                <h2>your green</h2>
+            </div>
+            <div class="mix single_item col-md-3 blue">
+                <img src="blue.jpg" alt="">
+                <h2>your blue</h2>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="jquery.mixitup.js"></script>
+    <script>
+        jQuery('.all_filter_item').mixItUp();
+    </script>
+</body>
+</html>
